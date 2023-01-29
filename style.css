@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Raleway:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #073b4c;
+    color: #F6F6F6;
+}
+
+.titulo-destaque{
+    color: #ffd166;
+}
+
+.apresentacao {
+    margin: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Aboreto', cursive;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link {
+    background-color:#ffd166;
+    width: 280px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 25px 5px;
+    padding: 21.5px 0;
+    color: #14213d;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.apresentacao__links__link:hover{
+    background-color: #06d6a0;
+    color: #ef476f;
+}
+
+.apresentacao__links__link:active{
+    background-color: #F6F6F6;
+}
+
+.copyright{
+    text-align: center;
+}
